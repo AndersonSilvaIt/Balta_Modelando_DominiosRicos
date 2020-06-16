@@ -1,0 +1,5 @@
+No caso de usar o mesmo código em vários lugares, o correto é criar um tipo complexo para esse objeto
+
+exemplo: Email
+		 Endereço
+		 Documento e etc
