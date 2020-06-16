@@ -1,0 +1,10 @@
+instalado um plugin criado pelo próprio Balta
+
+isntalado no projeto de Shared
+dotnet add package flunt => para instalar o plugin
+
+instalado no projeto Domain também
+instalado no projeto Testes também
+
+basta as entidades herdarem de Notifiable
+
