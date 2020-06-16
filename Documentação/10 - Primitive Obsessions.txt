@@ -3,3 +3,7 @@ No caso de usar o mesmo código em vários lugares, o correto é criar um tipo c
 exemplo: Email
 		 Endereço
 		 Documento e etc
+		 
+Criado pasta ValueObjects no Domain,
+esses tipos são criados para validações únicas, para evitar imeplementar  códigos repetidos de vaidações.
+
