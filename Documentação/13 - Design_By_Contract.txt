@@ -1,0 +1,9 @@
+// Code Contracts
+
+no Flunt, á existem diversos tipos de validações para utilizar nos projetos
+
+realizado as validações em E-mail,
+e é agrupado dentro de Students
+
+AddNotifications(name, document, email);
+onde obtém as notificações
