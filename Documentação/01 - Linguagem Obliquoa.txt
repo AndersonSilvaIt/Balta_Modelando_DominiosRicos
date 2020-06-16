@@ -1,0 +1,3 @@
+Resumo dos requisitos de uma forma em que o desenvolvedor e o cliente entenda, que depois vire código
+
+Codificação de fácil entendimento, verificar se a equipe irá entender depois, inglês, portugues e etc.

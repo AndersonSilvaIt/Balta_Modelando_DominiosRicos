@@ -1,0 +1,2 @@
+dentro do projeto Domain, retirado o Class1.cs
+

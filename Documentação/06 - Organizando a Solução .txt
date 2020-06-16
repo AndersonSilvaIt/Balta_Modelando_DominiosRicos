@@ -1,0 +1,42 @@
+criado as pastas do projeto
+dentro da pasta PAYMENTCONTEXT
+
+criado a solution comando: dotnet new sln
+
+dentro de PAYMENTCONTEXT.Domain,
+cd PAYMENTCONTEXT.Domain
+
+dotnet new classlib
+
+entrado em ambas as pastas e criado os clisslibraries
+
+dentro da pasta de testes, comando:
+
+dotnet new mstest
+
+
+voltar para o projeto raiz, cd..
+
+	dotnet sln add PaymentContext.Domain/PaymentContext.Domain.csproj
+	dotnet sln add PaymentContext.Shared/PaymentContext.Shared.csproj
+	dotnet sln add PaymentContext.Tests/PaymentContext.Tests.csproj
+	vai adicionar a referência dos projetos para o sln
+	
+	após isso, aplicar o restore => dotner restore para baixar todos os pacotes necessários
+	
+	dotnet build => irá compilar o projeto
+	
+	
+	Adicionar as referências dos projetos
+	entrar no projeto de Domain
+	
+	adicionar a referência de shared
+	
+	dotnet add reference ../PaymentContext.Shared
+	
+	
+	adicionar as referências de Domain e Shared para o testes
+	entrar na pasta do projeto de testes
+	
+	dotnet add reference ../PaymentContext.Shared
+	dotnet add reference ../PaymentContext.Domain

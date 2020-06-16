@@ -1,0 +1,7 @@
+Dominio anemico => é somente a entidade vazia, sem métodos, somente com as propriedades
+reflete apenas o que está no banco
+geralmente as regras de negócio ficam no banco de dados, com storie procedures
+
+
+Domínios ricos, classes que possuem metodos, regras de negócio e etc
+
