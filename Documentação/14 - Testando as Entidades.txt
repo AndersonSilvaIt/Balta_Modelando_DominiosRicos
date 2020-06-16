@@ -1,0 +1,3 @@
+ao implementar os testes de Document,
+entrar na pasta de Testes e executar o comando
+dotnet test
